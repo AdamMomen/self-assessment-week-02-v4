@@ -52,7 +52,8 @@ var Horse = function(name) {
 var FlyingHorse = function(name, color) {
   FlyingHorse.prototype = Object.create( Horse.prototype );
   FlyingHorse.prototype.constructor = FlyingHorse;
-  var oldGoSomewhere = FlyingHorse.prototype.goSomewhere;
+
+  this.oldGoSomewhere = this.goSomewhere;
   this.color = color;
   this.name  = name;
 };
