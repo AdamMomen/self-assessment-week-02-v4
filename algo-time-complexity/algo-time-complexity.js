@@ -13,7 +13,7 @@ var TimeComplexity = {
 };
 
 
-var sortedIndexOfTimeComplexity =  TimeComplexity.LINEAR; // TODO: Update this constant
+var sortedIndexOfTimeComplexity =  TimeComplexity.LOGARITHMIC; // TODO: Update this constant
 
 var sortedIndexOf = function(array, targetElement) {
   var minIndex = 0;
@@ -91,7 +91,7 @@ var hasDuplicates = function(array) {
 
 
 
-var removeLastThreeElementsTimeComplexity =  TimeComplexity.LINEAR; // TODO: Update this constant
+var removeLastThreeElementsTimeComplexity =  TimeComplexity.CONSTANT; // TODO: Update this constant
 
 var removeLastThreeElements = function(array) {
   var numberOfElementsToRemove = 3;

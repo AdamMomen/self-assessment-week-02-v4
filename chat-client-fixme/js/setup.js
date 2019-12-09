@@ -103,7 +103,7 @@ var displayData = function(data, user) {
     getData();
   });
 };
-//Here is the function that resonsible to send data to the server.
+//This is the function that is resonsible for sending data to the server.
 var postData = function(message, username) {
   $.ajax({
     url: SERVER_URL,
